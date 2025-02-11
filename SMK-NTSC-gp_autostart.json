@@ -1,0 +1,42 @@
+{
+  "name": "Super Mario Kart",
+  "autostart": {
+    "active": "1",
+    "name": "Autostart",
+    "address": "0x80",
+    "value": "0x0",
+    "type": "eq",
+    "more": null,
+    "next": [
+      {
+        "name": "Next 1",
+        "address": "0x80",
+        "value": "0x51",
+        "type": "eq",
+        "more": null,
+        "next": null
+      }
+    ]
+  },
+  "igt": null,
+  "alias": null,
+  "definitions": [
+    {
+      "name": "race finished",
+      "address": "0x10C1",
+      "value": "0x84",
+      "type": "eq",
+      "more": null,
+      "next": [
+        {
+          "name": "Next 1",
+          "address": "0x10C1",
+          "value": "0x85",
+          "type": "eq",
+          "more": null,
+          "next": null
+        }
+      ]
+    }
+  ]
+}
