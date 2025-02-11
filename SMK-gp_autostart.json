@@ -37,6 +37,23 @@
           "next": null
         }
       ]
+    },
+    {
+      "name": "podium finished",
+      "address": "0x80",
+      "value": "0x0",
+      "type": "eq",
+      "more": null,
+      "next": [
+        {
+          "name": "Next 1",
+          "address": "0x80",
+          "value": "0x51",
+          "type": "eq",
+          "more": null,
+          "next": null
+        }
+      ]
     }
   ]
 }
